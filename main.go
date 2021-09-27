@@ -150,7 +150,7 @@ func main() {
 	runtime.GOMAXPROCS(runtime.NumCPU())
 
 	imagePathRoot = GetCurrentPath() + "\\Images\\"
-	FindImageURL("http://mzitu.com", 10)
+	FindImageURL("http://test.com", 10)
 	fmt.Scanln()
 	// MainWindow{
 	// 	Title:   "SCREAMO",
@@ -165,7 +165,7 @@ func main() {
 	// 		PushButton{
 	// 			Text: "开始下载",
 	// 			OnClicked: func() {
-	// 				go FindImageURL("http://mzitu.com", 5)
+	// 				go FindImageURL("http://test.com", 5)
 	// 				outTE.AppendText("任务完成\n")
 	// 			},
 	// 		},
